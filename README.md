@@ -1,19 +1,3 @@
-
-
-<!-- 
-_class: lead gaia
-_paginate: false 
-backgroundColor: write 
--->
-
-![w:160](1.gif)
-
-# Brand new warehouse
-
-## Sstay hungry, stay foolish
-
-
-
 ### Hello <img src="./hello.gif" width="120px">
 
 :heart: Programming | :black_heart: Reasoning movie | :blue_heart: Anime
