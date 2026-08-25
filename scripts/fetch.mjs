@@ -2,14 +2,18 @@
 // Pulls the numbers the profile is built on into data/profile.json.
 // No dependencies: Node's native fetch only.
 
-import { writeFile, mkdir } from 'node:fs/promises'
+import { readFile, writeFile, mkdir } from 'node:fs/promises'
 
 const USER = 'y49'
 const FEATURED = 'y49/tlive'
 
-const token = process.env.GITHUB_TOKEN
+// Actions' built-in GITHUB_TOKEN is scoped to this repository, and listing
+// another repo's stargazers is outside that scope (403). PROFILE_TOKEN, a PAT
+// with public read, lifts that; without it the star curve simply keeps the
+// series already committed rather than failing the run.
+const token = process.env.PROFILE_TOKEN || process.env.GITHUB_TOKEN
 if (!token) {
-  console.error('GITHUB_TOKEN is required')
+  console.error('PROFILE_TOKEN or GITHUB_TOKEN is required')
   process.exit(1)
 }
 
@@ -37,6 +41,17 @@ async function all (path, opts) {
   }
 }
 
+// Falls back to whatever series is already on disk, so a token without the
+// scope for stargazers degrades the chart's freshness instead of the build.
+async function previousStars () {
+  try {
+    const raw = await readFile(new URL('../data/profile.json', import.meta.url))
+    const prev = JSON.parse(raw).stars
+    if (prev?.points?.length) return prev
+  } catch {}
+  throw new Error('no star series available and none cached in data/profile.json')
+}
+
 const days = (from, to) => Math.max(1, Math.round((to - from) / 86400000))
 
 // Star timestamps collapse into a cumulative series the chart can draw
@@ -55,9 +70,14 @@ const user = (await api(`/users/${USER}`)).body
 const releases = await all(`/repos/${FEATURED}/releases`)
 const merged = await all(`/search/issues?q=repo:${FEATURED}+author:${USER}+type:pr+is:merged`)
 
-const stargazers = await all(`/repos/${FEATURED}/stargazers`, {
-  accept: 'application/vnd.github.star+json'
-})
+let stargazers = null
+try {
+  stargazers = await all(`/repos/${FEATURED}/stargazers`, {
+    accept: 'application/vnd.github.star+json'
+  })
+} catch (err) {
+  console.warn(`stargazers unavailable (${err.message}); keeping the last series`)
+}
 
 // Merged PRs into repos someone else owns, ranked by how big that project is.
 const upstreamHits = (await api(
@@ -112,7 +132,9 @@ const profile = {
       : null,
     releaseSpanDays: releaseSpan
   },
-  stars: starSeries(stargazers.map(s => s.starred_at), repo.created_at),
+  stars: stargazers
+    ? starSeries(stargazers.map(s => s.starred_at), repo.created_at)
+    : await previousStars(),
   upstream
 }
 

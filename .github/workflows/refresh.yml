@@ -32,6 +32,10 @@ jobs:
       - name: Pull the numbers
         run: node scripts/fetch.mjs
         env:
+          # A PAT with public read keeps the star curve fresh. Without the
+          # secret the run still succeeds on the built-in token; the curve
+          # just holds its last committed shape.
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Draw the panels
