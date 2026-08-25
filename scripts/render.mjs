@@ -351,10 +351,6 @@ function readme (data) {
     `**[${featured.slug}](https://github.com/${featured.slug})** — ${featured.description}`,
     '',
     `Merged upstream: ${links}`,
-    '',
-    '<sub>Both panels are drawn from live GitHub data by',
-    '<a href="scripts/render.mjs">scripts/render.mjs</a> — hand-written SVG, no',
-    'third-party badge service to go down. Refreshed every 6 hours.</sub>',
     ''
   ].join('\n')
 }

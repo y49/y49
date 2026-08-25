@@ -13,7 +13,3 @@
 **[y49/tlive](https://github.com/y49/tlive)** — Self-hosted remote approvals + live monitoring for Claude Code / Codex — via Telegram, Feishu, or a web terminal. Any subscription or API key.
 
 Merged upstream: [`langgenius/dify#27546`](https://github.com/langgenius/dify/pull/27546) · [`fawney19/Aether#270`](https://github.com/fawney19/Aether/pull/270)
-
-<sub>Both panels are drawn from live GitHub data by
-<a href="scripts/render.mjs">scripts/render.mjs</a> — hand-written SVG, no
-third-party badge service to go down. Refreshed every 6 hours.</sub>
