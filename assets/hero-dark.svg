@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="454" viewBox="0 0 840 454" role="img">
+  <style>
+    text{font-family:ui-monospace,'SFMono-Regular','SF Mono',Menlo,Consolas,'DejaVu Sans Mono',monospace}
+    @keyframes show{to{opacity:1}}
+    @keyframes hide{to{opacity:0}}
+    @keyframes blink{0%,50%{opacity:1}51%,100%{opacity:0}}
+    @keyframes kt0{to{width:54.0px}}.t0{animation:kt0 0.19s steps(6) 0.35s forwards}@keyframes ct0{to{transform:translateX(54.0px)}}.t0c{animation:ct0 0.19s steps(6) 0.35s forwards,show .01s linear 0.35s forwards,hide .01s linear 0.54s forwards}.o1{animation:show .01s linear 0.64s forwards}.o2{animation:show .01s linear 0.71s forwards}@keyframes kt3{to{width:162.0px}}.t3{animation:kt3 0.58s steps(18) 1.06s forwards}@keyframes ct3{to{transform:translateX(162.0px)}}.t3c{animation:ct3 0.58s steps(18) 1.06s forwards,show .01s linear 1.06s forwards,hide .01s linear 1.64s forwards}.o4{animation:show .01s linear 1.74s forwards}@keyframes kt5{to{width:27.0px}}.t5{animation:kt5 0.1s steps(3) 2.09s forwards}@keyframes ct5{to{transform:translateX(27.0px)}}.t5c{animation:ct5 0.1s steps(3) 2.09s forwards,show .01s linear 2.09s forwards,hide .01s linear 2.19s forwards}.o6{animation:show .01s linear 2.29s forwards}@keyframes kt7{to{width:432.0px}}.t7{animation:kt7 1.54s steps(48) 2.64s forwards}@keyframes ct7{to{transform:translateX(432.0px)}}.t7c{animation:ct7 1.54s steps(48) 2.64s forwards,show .01s linear 2.64s forwards,hide .01s linear 4.18s forwards}.o8{animation:show .01s linear 4.28s forwards}.o9{animation:show .01s linear 4.35s forwards}@keyframes kt10{to{width:108.0px}}.t10{animation:kt10 0.38s steps(12) 4.70s forwards}@keyframes ct10{to{transform:translateX(108.0px)}}.t10c{animation:ct10 0.38s steps(12) 4.70s forwards,show .01s linear 4.70s forwards,hide .01s linear 5.08s forwards}.o11{animation:show .01s linear 5.18s forwards}.rest{animation:blink 1.06s steps(1) 5.53s infinite}
+  </style>
+  <rect x="0.5" y="0.5" width="839" height="453" rx="10"
+        fill="#0d1117" stroke="#30363d"/>
+  <path d="M0.5 10.5a10 10 0 0 1 10-10h819a10 10 0 0 1 10 10V38H0.5Z"
+        fill="#161b22" stroke="#30363d"/>
+  <circle cx="24" cy="19" r="5.5" fill="#ff5f57"/>
+  <circle cx="43" cy="19" r="5.5" fill="#febc2e"/>
+  <circle cx="62" cy="19" r="5.5" fill="#28c840"/>
+  <text x="420.0" y="24.0" font-size="13" textLength="101.4" lengthAdjust="spacing" xml:space="preserve" fill="#6e7681" text-anchor="middle">y49@github: ~</text>
+  <text x="26.0" y="72.0" font-size="15" textLength="36.0" lengthAdjust="spacing" xml:space="preserve" fill="#3fb950">~ $ </text>
+  <g clip-path="url(#t0)"><text x="62.0" y="72.0" font-size="15" textLength="54.0" lengthAdjust="spacing" xml:space="preserve" fill="#e6edf3">whoami</text></g>
+  <clipPath id="t0"><rect x="62.0" y="57.0" width="0" height="21" class="t0"/></clipPath>
+  <rect class="caret t0c" x="62.0" y="59.0" width="9.0" height="17" fill="#e6edf3" opacity="0"/>
+  <g class="o1" opacity="0"><text x="26.0" y="97.0" font-size="15" textLength="18.0" lengthAdjust="spacing" xml:space="preserve" fill="#e6edf3" font-weight="700">49</text><text x="44.0" y="97.0" font-size="15" textLength="261.0" lengthAdjust="spacing" xml:space="preserve" fill="#8b949e"> — backend &amp; AI agent tooling</text></g>
+  <g class="o2" opacity="0"><text x="26.0" y="122.0" font-size="15" textLength="315.0" lengthAdjust="spacing" xml:space="preserve" fill="#8b949e">Go · TypeScript · self-hosted infra</text></g>
+  <text x="26.0" y="157.0" font-size="15" textLength="36.0" lengthAdjust="spacing" xml:space="preserve" fill="#3fb950">~ $ </text>
+  <g clip-path="url(#t3)"><text x="62.0" y="157.0" font-size="15" textLength="162.0" lengthAdjust="spacing" xml:space="preserve" fill="#e6edf3">ls ~/ships | wc -l</text></g>
+  <clipPath id="t3"><rect x="62.0" y="142.0" width="0" height="21" class="t3"/></clipPath>
+  <rect class="caret t3c" x="62.0" y="144.0" width="9.0" height="17" fill="#e6edf3" opacity="0"/>
+  <g class="o4" opacity="0"><text x="26.0" y="182.0" font-size="15" textLength="9.0" lengthAdjust="spacing" xml:space="preserve" fill="#d29922" font-weight="700">1</text><text x="35.0" y="182.0" font-size="15" textLength="144.0" lengthAdjust="spacing" xml:space="preserve" fill="#6e7681">    # not a typo</text></g>
+  <text x="26.0" y="217.0" font-size="15" textLength="36.0" lengthAdjust="spacing" xml:space="preserve" fill="#3fb950">~ $ </text>
+  <g clip-path="url(#t5)"><text x="62.0" y="217.0" font-size="15" textLength="27.0" lengthAdjust="spacing" xml:space="preserve" fill="#e6edf3">why</text></g>
+  <clipPath id="t5"><rect x="62.0" y="202.0" width="0" height="21" class="t5"/></clipPath>
+  <rect class="caret t5c" x="62.0" y="204.0" width="9.0" height="17" fill="#e6edf3" opacity="0"/>
+  <g class="o6" opacity="0"><text x="26.0" y="242.0" font-size="15" textLength="99.0" lengthAdjust="spacing" xml:space="preserve" fill="#3fb950" font-weight="700">41 releases</text><text x="125.0" y="242.0" font-size="15" textLength="288.0" lengthAdjust="spacing" xml:space="preserve" fill="#8b949e"> in 155 days — depth over count.</text></g>
+  <text x="26.0" y="277.0" font-size="15" textLength="36.0" lengthAdjust="spacing" xml:space="preserve" fill="#3fb950">~ $ </text>
+  <g clip-path="url(#t7)"><text x="62.0" y="277.0" font-size="15" textLength="432.0" lengthAdjust="spacing" xml:space="preserve" fill="#e6edf3">git log --author=49 --remotes=upstream --oneline</text></g>
+  <clipPath id="t7"><rect x="62.0" y="262.0" width="0" height="21" class="t7"/></clipPath>
+  <rect class="caret t7c" x="62.0" y="264.0" width="9.0" height="17" fill="#e6edf3" opacity="0"/>
+  <g class="o8" opacity="0"><text x="26.0" y="302.0" font-size="15" textLength="162.0" lengthAdjust="spacing" xml:space="preserve" fill="#58a6ff">langgenius/dify   </text><text x="188.0" y="302.0" font-size="15" textLength="72.0" lengthAdjust="spacing" xml:space="preserve" fill="#6e7681">#27546  </text><text x="260.0" y="302.0" font-size="15" textLength="72.0" lengthAdjust="spacing" xml:space="preserve" fill="#d29922">★153k   </text><text x="332.0" y="302.0" font-size="15" textLength="423.0" lengthAdjust="spacing" xml:space="preserve" fill="#8b949e">improve infinite scroll observer responsiveness</text></g>
+  <g class="o9" opacity="0"><text x="26.0" y="327.0" font-size="15" textLength="162.0" lengthAdjust="spacing" xml:space="preserve" fill="#58a6ff">fawney19/Aether   </text><text x="188.0" y="327.0" font-size="15" textLength="72.0" lengthAdjust="spacing" xml:space="preserve" fill="#6e7681">#270    </text><text x="260.0" y="327.0" font-size="15" textLength="72.0" lengthAdjust="spacing" xml:space="preserve" fill="#d29922">★1.4k   </text><text x="332.0" y="327.0" font-size="15" textLength="378.0" lengthAdjust="spacing" xml:space="preserve" fill="#8b949e">修复测试供应商配置时 DetachedInstanceError</text></g>
+  <text x="26.0" y="362.0" font-size="15" textLength="36.0" lengthAdjust="spacing" xml:space="preserve" fill="#3fb950">~ $ </text>
+  <g clip-path="url(#t10)"><text x="62.0" y="362.0" font-size="15" textLength="108.0" lengthAdjust="spacing" xml:space="preserve" fill="#e6edf3">cat ~/.taste</text></g>
+  <clipPath id="t10"><rect x="62.0" y="347.0" width="0" height="21" class="t10"/></clipPath>
+  <rect class="caret t10c" x="62.0" y="349.0" width="9.0" height="17" fill="#e6edf3" opacity="0"/>
+  <g class="o11" opacity="0"><text x="26.0" y="387.0" font-size="15" textLength="216.0" lengthAdjust="spacing" xml:space="preserve" fill="#8b949e">code · whodunits · anime</text></g>
+  <text x="26.0" y="422.0" font-size="15" textLength="36.0" lengthAdjust="spacing" xml:space="preserve" fill="#3fb950">~ $ </text>
+  <rect class="rest" x="62.0" y="409.0" width="9.0" height="17" fill="#e6edf3" opacity="0"/>
+</svg>
