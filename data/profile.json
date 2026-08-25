@@ -857,7 +857,7 @@
   "upstream": [
     {
       "slug": "langgenius/dify",
-      "stars": 153431,
+      "stars": 153467,
       "number": 27546,
       "title": "fix: improve infinite scroll observer responsiveness",
       "url": "https://github.com/langgenius/dify/pull/27546",
@@ -865,7 +865,7 @@
     },
     {
       "slug": "fawney19/Aether",
-      "stars": 1430,
+      "stars": 1434,
       "number": 270,
       "title": "fix(provider-test): 修复测试供应商配置时 DetachedInstanceError",
       "url": "https://github.com/fawney19/Aether/pull/270",
