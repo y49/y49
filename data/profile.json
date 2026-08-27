@@ -9,7 +9,7 @@
     "name": "tlive",
     "description": "Self-hosted remote approvals + live monitoring for Claude Code / Codex — via Telegram, Feishu, or a web terminal. Any subscription or API key.",
     "language": "TypeScript",
-    "stars": 204,
+    "stars": 205,
     "forks": 29,
     "releases": 41,
     "mergedPrs": 44,
@@ -857,7 +857,7 @@
   "upstream": [
     {
       "slug": "langgenius/dify",
-      "stars": 153587,
+      "stars": 153650,
       "number": 27546,
       "title": "fix: improve infinite scroll observer responsiveness",
       "url": "https://github.com/langgenius/dify/pull/27546",
@@ -865,7 +865,7 @@
     },
     {
       "slug": "fawney19/Aether",
-      "stars": 1439,
+      "stars": 1443,
       "number": 270,
       "title": "fix(provider-test): 修复测试供应商配置时 DetachedInstanceError",
       "url": "https://github.com/fawney19/Aether/pull/270",
