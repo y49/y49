@@ -9,7 +9,7 @@
     "name": "tlive",
     "description": "Self-hosted remote approvals + live monitoring for Claude Code / Codex — via Telegram, Feishu, or a web terminal. Any subscription or API key.",
     "language": "TypeScript",
-    "stars": 205,
+    "stars": 206,
     "forks": 29,
     "releases": 41,
     "mergedPrs": 44,
@@ -857,7 +857,7 @@
   "upstream": [
     {
       "slug": "langgenius/dify",
-      "stars": 153840,
+      "stars": 153858,
       "number": 27546,
       "title": "fix: improve infinite scroll observer responsiveness",
       "url": "https://github.com/langgenius/dify/pull/27546",
