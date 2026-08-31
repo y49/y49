@@ -7,7 +7,7 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg">
-  <img alt="tlive: 206 stars, 29 forks, 41 releases, 44 merged PRs, a release every 3.9 days, with its star growth curve." src="assets/card-light.svg" width="840">
+  <img alt="tlive: 207 stars, 29 forks, 41 releases, 44 merged PRs, a release every 3.9 days, with its star growth curve." src="assets/card-light.svg" width="840">
 </picture>
 
 **[y49/tlive](https://github.com/y49/tlive)** — Self-hosted remote approvals + live monitoring for Claude Code / Codex — via Telegram, Feishu, or a web terminal. Any subscription or API key.
