@@ -29,7 +29,7 @@
   <g clip-path="url(#t5)"><text x="62.0" y="217.0" font-size="15" textLength="27.0" lengthAdjust="spacing" xml:space="preserve" fill="#1f2328">why</text></g>
   <clipPath id="t5"><rect x="62.0" y="202.0" width="0" height="21" class="t5"/></clipPath>
   <rect class="caret t5c" x="62.0" y="204.0" width="9.0" height="17" fill="#1f2328" opacity="0"/>
-  <g class="o6" opacity="0"><text x="26.0" y="242.0" font-size="15" textLength="99.0" lengthAdjust="spacing" xml:space="preserve" fill="#1a7f37" font-weight="700">41 releases</text><text x="125.0" y="242.0" font-size="15" textLength="288.0" lengthAdjust="spacing" xml:space="preserve" fill="#59636e"> in 155 days — depth over count.</text></g>
+  <g class="o6" opacity="0"><text x="26.0" y="242.0" font-size="15" textLength="99.0" lengthAdjust="spacing" xml:space="preserve" fill="#1a7f37" font-weight="700">42 releases</text><text x="125.0" y="242.0" font-size="15" textLength="288.0" lengthAdjust="spacing" xml:space="preserve" fill="#59636e"> in 167 days — depth over count.</text></g>
   <text x="26.0" y="277.0" font-size="15" textLength="36.0" lengthAdjust="spacing" xml:space="preserve" fill="#1a7f37">~ $ </text>
   <g clip-path="url(#t7)"><text x="62.0" y="277.0" font-size="15" textLength="432.0" lengthAdjust="spacing" xml:space="preserve" fill="#1f2328">git log --author=49 --remotes=upstream --oneline</text></g>
   <clipPath id="t7"><rect x="62.0" y="262.0" width="0" height="21" class="t7"/></clipPath>

@@ -11,8 +11,8 @@
     "language": "TypeScript",
     "stars": 207,
     "forks": 29,
-    "releases": 41,
-    "mergedPrs": 44,
+    "releases": 42,
+    "mergedPrs": 47,
     "topics": [
       "ai-coding",
       "claude-code",
@@ -25,9 +25,9 @@
       "webhook"
     ],
     "createdAt": "2026-02-27T01:07:14Z",
-    "pushedAt": "2026-08-21T03:31:56Z",
-    "daysPerRelease": 3.9,
-    "releaseSpanDays": 155
+    "pushedAt": "2026-09-02T05:56:16Z",
+    "daysPerRelease": 4.1,
+    "releaseSpanDays": 167
   },
   "stars": {
     "from": "2026-02-27T01:07:14Z",
@@ -857,7 +857,7 @@
   "upstream": [
     {
       "slug": "langgenius/dify",
-      "stars": 154155,
+      "stars": 154203,
       "number": 27546,
       "title": "fix: improve infinite scroll observer responsiveness",
       "url": "https://github.com/langgenius/dify/pull/27546",
@@ -865,7 +865,7 @@
     },
     {
       "slug": "fawney19/Aether",
-      "stars": 1457,
+      "stars": 1458,
       "number": 270,
       "title": "fix(provider-test): 修复测试供应商配置时 DetachedInstanceError",
       "url": "https://github.com/fawney19/Aether/pull/270",
