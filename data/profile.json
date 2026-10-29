@@ -11,8 +11,8 @@
     "language": "TypeScript",
     "stars": 215,
     "forks": 32,
-    "releases": 43,
-    "mergedPrs": 51,
+    "releases": 44,
+    "mergedPrs": 53,
     "topics": [
       "ai-coding",
       "claude-code",
@@ -25,9 +25,9 @@
       "webhook"
     ],
     "createdAt": "2026-02-27T01:07:14Z",
-    "pushedAt": "2026-10-14T02:25:58Z",
-    "daysPerRelease": 5,
-    "releaseSpanDays": 209
+    "pushedAt": "2026-10-29T05:13:56Z",
+    "daysPerRelease": 5.2,
+    "releaseSpanDays": 224
   },
   "stars": {
     "from": "2026-02-27T01:07:14Z",
@@ -857,7 +857,7 @@
   "upstream": [
     {
       "slug": "langgenius/dify",
-      "stars": 159839,
+      "stars": 159861,
       "number": 27546,
       "title": "fix: improve infinite scroll observer responsiveness",
       "url": "https://github.com/langgenius/dify/pull/27546",

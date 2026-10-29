@@ -2,12 +2,12 @@
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img alt="Terminal session: 49 — backend and AI agent tooling, Go, TypeScript, self-hosted infra. One shipped project, 43 releases in 209 days." src="assets/hero-light.svg" width="840">
+  <img alt="Terminal session: 49 — backend and AI agent tooling, Go, TypeScript, self-hosted infra. One shipped project, 44 releases in 224 days." src="assets/hero-light.svg" width="840">
 </picture>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/card-dark.svg">
-  <img alt="tlive: 215 stars, 32 forks, 43 releases, 51 merged PRs, a release every 5 days, with its star growth curve." src="assets/card-light.svg" width="840">
+  <img alt="tlive: 215 stars, 32 forks, 44 releases, 53 merged PRs, a release every 5.2 days, with its star growth curve." src="assets/card-light.svg" width="840">
 </picture>
 
 **[y49/tlive](https://github.com/y49/tlive)** — Self-hosted remote approvals + live monitoring for Claude Code / Codex — via Telegram, Feishu, or a web terminal. Any subscription or API key.
