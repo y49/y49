@@ -25,7 +25,7 @@
       "webhook"
     ],
     "createdAt": "2026-02-27T01:07:14Z",
-    "pushedAt": "2026-10-29T05:13:56Z",
+    "pushedAt": "2026-10-30T02:58:04Z",
     "daysPerRelease": 5.2,
     "releaseSpanDays": 224
   },
@@ -857,7 +857,7 @@
   "upstream": [
     {
       "slug": "langgenius/dify",
-      "stars": 159920,
+      "stars": 159956,
       "number": 27546,
       "title": "fix: improve infinite scroll observer responsiveness",
       "url": "https://github.com/langgenius/dify/pull/27546",
