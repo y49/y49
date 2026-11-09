@@ -857,7 +857,7 @@
   "upstream": [
     {
       "slug": "langgenius/dify",
-      "stars": 160714,
+      "stars": 160777,
       "number": 27546,
       "title": "fix: improve infinite scroll observer responsiveness",
       "url": "https://github.com/langgenius/dify/pull/27546",
